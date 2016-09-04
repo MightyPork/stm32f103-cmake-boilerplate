@@ -43,16 +43,6 @@
 
 #define LED1_Pin GPIO_PIN_13
 #define LED1_GPIO_Port GPIOC
-#define RGB_DOUT_Pin GPIO_PIN_11
-#define RGB_DOUT_GPIO_Port GPIOB
-#define BTN1_Pin GPIO_PIN_5
-#define BTN1_GPIO_Port GPIOB
-#define BTN2_Pin GPIO_PIN_6
-#define BTN2_GPIO_Port GPIOB
-#define BTN3_Pin GPIO_PIN_7
-#define BTN3_GPIO_Port GPIOB
-#define BTN4_Pin GPIO_PIN_8
-#define BTN4_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

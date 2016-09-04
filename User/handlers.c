@@ -8,7 +8,7 @@
 #include "handlers.h"
 
 /**
- * @brief Handle a button press
+ * @brief Handle a button press. Delete if not needed - a possible callback for debouncer.
  * @param button: button identifier
  * @param press: press state (1 = just pressed, 0 = just released)
  */
