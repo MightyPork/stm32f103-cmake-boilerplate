@@ -36,6 +36,7 @@
 #include "gpio.h"
 
 /* USER CODE BEGIN Includes */
+#include "handlers.h"
 #include "user_main.h"
 /* USER CODE END Includes */
 

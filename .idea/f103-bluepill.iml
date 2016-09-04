@@ -2,7 +2,6 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/bluepill.cmake" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/User/utils/debug.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/User/utils/timebase.h" isTestSource="false" />
@@ -19,26 +18,27 @@
       <sourceFolder url="file://$MODULE_DIR$/User/user_main.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/User/init.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/User/handlers.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Src/stm32f1xx_hal_msp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/f103.cmake" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Src/gpio.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Src/stm32f1xx_it.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Src/main.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Src/usart.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Src/stm32f1xx_hal_msp.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/STM32F103C8Tx_FLASH.ld" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
+          <root url="file:///usr/arm-none-eabi/include" />
           <root url="file:///usr/lib/gcc/arm-none-eabi/6.1.1/include-fixed" />
           <root url="file:///usr/lib/gcc/arm-none-eabi/6.1.1/include" />
-          <root url="file:///usr/arm-none-eabi/include" />
           <root url="file://$MODULE_DIR$/Drivers" />
         </CLASSES>
         <SOURCES>
+          <root url="file:///usr/arm-none-eabi/include" />
           <root url="file:///usr/lib/gcc/arm-none-eabi/6.1.1/include-fixed" />
           <root url="file:///usr/lib/gcc/arm-none-eabi/6.1.1/include" />
-          <root url="file:///usr/arm-none-eabi/include" />
           <root url="file://$MODULE_DIR$/Drivers" />
         </SOURCES>
       </library>

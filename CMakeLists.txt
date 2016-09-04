@@ -1,4 +1,4 @@
-project(f103-simon C ASM)
+project(f103-bluepill C ASM)
 cmake_minimum_required(VERSION 3.5.0)
 
 file(GLOB_RECURSE USER_SOURCES "Src/*.c" "User/*.c")
